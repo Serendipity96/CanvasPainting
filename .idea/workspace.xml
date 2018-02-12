@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540e31cb-395c-420d-b371-8e207b090775" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
       <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
@@ -21,32 +22,54 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="133">
+              <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="231">
+              <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="e#404#462#0" expanded="false" />
+                <element signature="e#473#543#0" expanded="false" />
+                <element signature="e#561#639#0" expanded="false" />
+                <element signature="e#653#749#0" expanded="false" />
+                <element signature="e#764#836#0" expanded="false" />
+                <element signature="e#846#918#0" expanded="false" />
+                <element signature="e#931#1105#0" expanded="false" />
+                <element signature="e#1124#1150#0" expanded="false" />
+                <element signature="e#1167#1191#0" expanded="false" />
+                <element signature="e#1211#1238#0" expanded="false" />
+                <element signature="e#1256#1281#0" expanded="false" />
+                <element signature="e#1301#1376#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2197">
-              <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+            <state relative-caret-position="-3710">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
-                <element signature="e#3633#3905#0" expanded="false" />
-                <element signature="e#3965#4392#0" expanded="false" />
-                <element signature="e#4448#4486#0" expanded="false" />
+                <element signature="e#664#919#0" expanded="false" />
+                <element signature="e#950#1207#0" expanded="false" />
+                <element signature="e#1257#1517#0" expanded="false" />
+                <element signature="e#2035#2249#0" expanded="false" />
+                <element signature="e#2277#2491#0" expanded="false" />
+                <element signature="e#2522#2742#0" expanded="false" />
+                <element signature="e#2771#2987#0" expanded="false" />
+                <element signature="e#3024#3118#0" expanded="false" />
+                <element signature="e#3148#3242#0" expanded="false" />
+                <element signature="e#4874#5146#0" expanded="false" />
+                <element signature="e#5206#5633#0" expanded="false" />
+                <element signature="e#5689#5727#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -84,9 +107,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -165,12 +188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518316464902</updated>
       <workItem from="1518316466472" duration="9793000" />
-      <workItem from="1518403576762" duration="9622000" />
+      <workItem from="1518403576762" duration="13207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19415000" />
+    <option name="totallyTimeSpent" value="23000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -202,7 +225,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -216,29 +241,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="133">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2197">
-          <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
-          <folding>
-            <element signature="e#3633#3905#0" expanded="false" />
-            <element signature="e#3965#4392#0" expanded="false" />
-            <element signature="e#4448#4486#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="231">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#404#462#0" expanded="false" />
+            <element signature="e#473#543#0" expanded="false" />
+            <element signature="e#561#639#0" expanded="false" />
+            <element signature="e#653#749#0" expanded="false" />
+            <element signature="e#764#836#0" expanded="false" />
+            <element signature="e#846#918#0" expanded="false" />
+            <element signature="e#931#1105#0" expanded="false" />
+            <element signature="e#1124#1150#0" expanded="false" />
+            <element signature="e#1167#1191#0" expanded="false" />
+            <element signature="e#1211#1238#0" expanded="false" />
+            <element signature="e#1256#1281#0" expanded="false" />
+            <element signature="e#1301#1376#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3710">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#664#919#0" expanded="false" />
+            <element signature="e#950#1207#0" expanded="false" />
+            <element signature="e#1257#1517#0" expanded="false" />
+            <element signature="e#2035#2249#0" expanded="false" />
+            <element signature="e#2277#2491#0" expanded="false" />
+            <element signature="e#2522#2742#0" expanded="false" />
+            <element signature="e#2771#2987#0" expanded="false" />
+            <element signature="e#3024#3118#0" expanded="false" />
+            <element signature="e#3148#3242#0" expanded="false" />
+            <element signature="e#4874#5146#0" expanded="false" />
+            <element signature="e#5206#5633#0" expanded="false" />
+            <element signature="e#5689#5727#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

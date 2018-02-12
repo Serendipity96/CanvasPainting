@@ -1,16 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    overflow: hidden;/*禁用滚动条*/
-}
-ol{
+
+ol {
     list-style: none;
 }
 
 #xxx {
     background: #E6686A;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .actions {
@@ -31,37 +32,76 @@ ol{
     fill: white;
     transform: scale(1.3);
 }
-.colors{
+
+.size {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+.size li {
+    margin: 20px 0;
+    padding: 0 10px;
+    transition: all 0.3s;
+}
+
+.size li.active {
+    border-left-color: white;
+    color: white;
+    transform: scale(1.3);
+}
+
+.size .thin {
+    height: 20px;
+    width: 20px;
+    border-left: 1px solid black;
+    padding-left: 12px;
+}
+
+.size .thick {
+    height: 20px;
+    width: 20px;
+    border-left: 3px solid black;
+}
+
+.colors {
     position: absolute;
     top: 0;
     right: 0;
     padding: 20px;
 }
+
 .colors li {
-    width: 20px;
-    height: 20px;
-    box-shadow: 0 0 3px rgba(0,0,0,0.25);
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
     float: left;
     margin-right: 20px;
     transition: all 0.3s;
 }
-.colors li.black{
+
+.colors li.black {
     background: black;
 }
-.colors li.red{
+
+.colors li.red {
     background: red;
 }
-.colors li.yellow{
+
+.colors li.yellow {
     background: yellow;
 }
-.colors li.blue{
+
+.colors li.blue {
     background: blue;
 }
-.colors li.active{
-    box-shadow: 0 0 3px rgba(0,0,0,0.95);
+
+.colors li.active {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.95);
     transform: scale(1.3);
 }
+
 .icon {
     width: 1em;
     height: 1em;

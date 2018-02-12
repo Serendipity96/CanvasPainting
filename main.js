@@ -7,6 +7,11 @@ var red = document.getElementById('red');
 var yellow = document.getElementById('yellow');
 var blue = document.getElementById('blue');
 var clear = document.getElementById('clear');
+var thin = document.getElementById('thin');
+var thick = document.getElementById('thick');
+var download = document.getElementById('download');
+var lineWidth = 1;
+
 
 autoSetCanvas(yyy);
 
@@ -19,12 +24,18 @@ brush.onclick = function () {
     brush.classList.add('active');
     eraser.classList.remove('active');
     clear.classList.remove('active');
+    download.classList.remove('active');
+    thin.classList.add('active');
+    thick.classList.remove('active');
 };
 eraser.onclick = function () {
     eraserEnabled = true;
     eraser.classList.add('active');
     brush.classList.remove('active');
     clear.classList.remove('active');
+    thin.classList.remove('active');
+    thick.classList.remove('active');
+    download.classList.remove('active');
 };
 //清除所有痕迹
 clear.onclick = function clearCanvas() {
@@ -32,6 +43,26 @@ clear.onclick = function clearCanvas() {
     clear.classList.add('active');
     brush.classList.remove('active');
     eraser.classList.remove('active');
+    thin.classList.remove('active');
+    thick.classList.remove('active');
+    download.classList.remove('active');
+};
+//download
+download.onclick = function () {
+    download.classList.add('active');
+    eraser.classList.remove('active');
+    brush.classList.remove('active');
+    clear.classList.remove('active');
+    thin.classList.remove('active');
+    thick.classList.remove('active');
+
+    var url = yyy.toDataURL("image/png");
+    var a = document.createElement('a');
+    document.body.appendChild(a);
+    a.href = url;
+    a.download = 'download';
+    a.target = '_blank';
+    a.click();
 };
 
 //更改颜色
@@ -68,6 +99,17 @@ blue.onclick = function () {
     black.classList.remove('active');
 };
 
+//线的粗细
+thin.onclick = function () {
+    lineWidth = 1;
+    thin.classList.add('active');
+    thick.classList.remove('active');
+};
+thick.onclick = function () {
+    lineWidth = 5;
+    thick.classList.add('active');
+    thin.classList.remove('active');
+};
 
 
 //工具函数
@@ -164,7 +206,7 @@ function listenToUser(canvas) {
 function drawLine(x1, y1, x2, y2) {
     context.beginPath();
     context.moveTo(x1, y1);//起点
-    context.lineWidth = 5;
+    context.lineWidth = lineWidth;
     context.lineTo(x2, y2);//终点
     context.closePath();
     context.stroke();

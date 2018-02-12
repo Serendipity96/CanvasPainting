@@ -6,14 +6,29 @@
 ,maximum-scale=1.0,minimum-scale=1.0">
     <title>CanvasPainting</title>
     <link rel="stylesheet" href="./style.css">
-
+    <script src="//at.alicdn.com/t/font_569819_0rdgpabtgap2e29.js"></script>
 </head>
 <body>
 
 <canvas id="xxx" width=300px height=300px></canvas>
-<div id="actions" class="actions">
-    <button id="brush">画笔</button>
-    <button id="eraser">橡皮擦</button>
+<div class="actions">
+    <svg id="brush" class="icon active" aria-hidden="true">
+        <use xlink:href="#icon-pen"></use>
+    </svg>
+    <svg id="eraser" class="icon" aria-hidden="true">
+        <use xlink:href="#icon-eraser"></use>
+    </svg>
+    <svg id="clear" class="icon" aria-hidden="true">
+        <use xlink:href="#icon-qingchu1"></use>
+    </svg>
+</div>
+<div class="colors">
+    <ol>
+        <li id="black" class="black active"></li>
+        <li id="red" class="red"></li>
+        <li id="yellow" class="yellow"></li>
+        <li id="blue" class="blue"></li>
+    </ol>
 </div>
 
 <script src="./main.js"></script>

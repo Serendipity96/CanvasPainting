@@ -2,7 +2,11 @@ var yyy = document.getElementById('xxx');
 var context = yyy.getContext('2d');
 var eraser = document.getElementById('eraser');
 var brush = document.getElementById('brush');
-var actions = document.getElementById('actions');
+var black = document.getElementById('black');
+var red = document.getElementById('red');
+var yellow = document.getElementById('yellow');
+var blue = document.getElementById('blue');
+var clear = document.getElementById('clear');
 
 autoSetCanvas(yyy);
 
@@ -10,14 +14,60 @@ listenToUser(yyy);
 
 //判断橡皮
 var eraserEnabled = false;
-eraser.onclick = function () {
-    eraserEnabled = true;
-    actions.className = 'actions x';
-};
 brush.onclick = function () {
     eraserEnabled = false;
-    actions.className = 'actions';
+    brush.classList.add('active');
+    eraser.classList.remove('active');
+    clear.classList.remove('active');
 };
+eraser.onclick = function () {
+    eraserEnabled = true;
+    eraser.classList.add('active');
+    brush.classList.remove('active');
+    clear.classList.remove('active');
+};
+//清除所有痕迹
+clear.onclick = function clearCanvas() {
+    yyy.height = yyy.height;
+    clear.classList.add('active');
+    brush.classList.remove('active');
+    eraser.classList.remove('active');
+};
+
+//更改颜色
+black.onclick = function () {
+    context.strokeStyle = 'red';
+    context.fillStyle = 'red';
+    black.classList.add('active');
+    red.classList.remove('active');
+    yellow.classList.remove('active');
+    blue.classList.remove('active');
+};
+red.onclick = function () {
+    context.strokeStyle = 'red';
+    context.fillStyle = 'red';
+    red.classList.add('active');
+    black.classList.remove('active');
+    yellow.classList.remove('active');
+    blue.classList.remove('active');
+};
+yellow.onclick = function () {
+    context.strokeStyle = 'yellow';
+    context.fillStyle = 'yellow';
+    yellow.classList.add('active');
+    red.classList.remove('active');
+    blue.classList.remove('active');
+    black.classList.remove('active');
+};
+blue.onclick = function () {
+    context.strokeStyle = 'blue';
+    context.fillStyle = 'blue';
+    blue.classList.add('active');
+    yellow.classList.remove('active');
+    red.classList.remove('active');
+    black.classList.remove('active');
+};
+
 
 
 //工具函数
